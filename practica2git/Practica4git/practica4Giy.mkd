@@ -1,0 +1,24 @@
+#Practica 4 GIT
+
+### 1-Entrar en practica2git
+### 2-Eliminar linea main
+### 3-Comprobar estado
+### 4-Deshacer los cambios
+### 5-Comprobar el estado de nuevo. 
+![Alt text](file:///media/claudio/Elements/GIT/Desarollo%20de%20Entornos/practica2git/Practica4git/Imagenes/Screenshot%20from%202021-01-13%2018-27-35.png
+)
+
+### 6-Eliminar la ultima linea
+### 7-Añadir a preparacion
+### 8-Comprobar estado por tercera vez.
+### 9-Quitar los cambios de la zona temporal y mantenerlos en el directorio
+### 10-Comprobar de nuevo el estado.
+### 11-Deshacer los cambios volviendo a la version anterior
+
+![Alt text](file:///media/claudio/Elements/GIT/Desarollo%20de%20Entornos/practica2git/Practica4git/Imagenes/Screenshot%20from%202021-01-13%2018-28-06.png
+)
+### 12-Volver a comprobar el estado por cuarta y ultima vez.
+
+![Alt text](file:///media/claudio/Elements/GIT/Desarollo%20de%20Entornos/practica2git/Practica4git/Imagenes/Screenshot%20from%202021-01-13%2018-28-54.png
+)
+
