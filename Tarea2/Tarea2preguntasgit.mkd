@@ -1,0 +1,39 @@
+#TAREA 2 ED-DEBUG
+
+###1.-En la funcion1 ¿Qué hacen estas líneas de código?
+#### - En esta linea se crea una variable de tipo String con el nombre de string2, y se le atribuye el valor de "string2".
+#### - En estas 2 lineas siguientes se le cambia el valor de "string2" a "string1"
+#### -String string2 = "string2";
+#### -string2 = string2.substring(0,string2.length()-1;
+####string2 =string2+ "1";
+### 2.-¿Qué valen las variables strin1 y string2 antes de ejecutar el código de comprobacion siguiente?
+####- El valor de string1 = "string1"
+####- El valor de string2 = "string1" ya que antes se cambio usando .substring.
+####if(string1 == string2 ) {
+####System.out.println("SON IGUALES " + a);
+####}
+####else {
+####System.out.println("SON DIFERENTES");
+####}
+###3.-¿Por qué no funciona el operador == ? ¿Qué operador se debe usar en lugar de este?
+#### No funciona el igual porque es un String, habria que usar equals(); y si funcionaria.
+
+###4.-La función2() está declarada como sigue:
+####public void funcion2() {
+####System.out.println("--------------------");
+####System.out.println("Esta es la función 2");
+####System.out.println("Cómo hago la llamada para que
+####funcione????");
+
+###Esta función cómo la tengo que llamar desde el método MAIN para que funcione. Existen 2
+###posibilidades. Explícalas.
+#### Primer metodo, sería añadir static antes del void en la funcion, asi se podria llamar sin problema, quedaria asi:
+#### public static void funcion2(){//codigo aqui}
+
+#### Segundo metodo, sería hacer una clase fuera de la misma para llamarla a esta,ya que el static es lo que se pone cuando el metodo esta hecho en la misma clase, si el metodo o funcion esta fuera de la clase se podria llamar sin estatic.
+
+#### Quedaria asi:
+#### public class funcion2{
+#### public void funcion2(){
+####}//cierre funcion2.
+####}//cierre class.
