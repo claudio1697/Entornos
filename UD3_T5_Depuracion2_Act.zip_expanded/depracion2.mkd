@@ -1,0 +1,91 @@
+###1.-Explica la función Main  
+
+
+Primero, estan las variables, el tanaño, y las dos listas.
+
+Segundo, se rellena la lista con numeros aleatorios y luego se igualan, asi ambas tienen los mismos numeros:
+
+![Screenshot from 2021-01-28 09-55-16](Screenshot from 2021-01-28 09-55-16.png)
+
+Tercero, en dos metodos, el 1 y el 2.
+
+El primer metodo se imprime y muestra los numeros, sin ordenar, ordenados y lo que ha tardado en ejecutarse.
+
+![Screenshot from 2021-01-28 09-57-23](Screenshot from 2021-01-28 09-57-23.png)
+
+El segundo metodo se imprime y muestra tambien, los numeros sin ordenar, ordenados y lo que tarda en ejecutarse.
+
+![Screenshot from 2021-01-28 10-00-34](Screenshot from 2021-01-28 10-00-34.png)
+
+###2.-Explica el metodo intercambio:
+
+![Screenshot from 2021-01-28 11-22-38](Screenshot from 2021-01-28 11-22-38.png)
+
+Se compara el 0 del array con los demas, despues de realizar las comparaciones el numero mas pequeño pasa a estar en la posicion 0.
+
+Ahora el numero mas pequeño esta en la posicion 0, al 0 se le suma 1 y nos colocamos en la posicion 1, y se vuelve a comparar con los demas, la posicion de las posiciones siguientes si hay una mas pequeña se pasa a la posicion 1.
+
+Y asi con los demas.Aqui dejo un ejemplo de la
+posicion 0:
+
+![Screenshot from 2021-01-28 11-28-54](Screenshot from 2021-01-28 11-28-54.png)
+
+###3.-Explica el metodo de arrays de conteo:
+
+El metodo de arrays de conteo, la variable count va sumando de 1 en 1 hasta el valor maximo introducido.
+
+Si hay un numero que coincide con los introducidos, en la posicion del numero se pone 1 y luego se sigue sumando y añadiendo.
+
+Luego esta el siguiento for, que va sumando la i de 1 en 1 y si es menor que los demas el z le asigna la posicion.
+
+Y se le resta al count la posicion, hasta volver a tenerlos todos "repartidos".
+
+
+Aqui tenemos una tabla que representa count con un maximo de 5:
+
+
+| 0 |  1  |  2  |  3  |  4  |  5  |
+|---|-----|-----|-----|-----|-----|
+| 0 |  0  |  0  |  0  |  0  |  0  |
+
+Se generan numeros aleatorios y el count va sumando de 1 en 1 y si coincide , se le suma 1 en la posicion del numero. imaginemonos que tenemos un 2,3,5,1,2,5.
+
+| 0 |  1  |  2  |  3  |  4  |  5  |
+|---|-----|-----|-----|-----|-----|
+| 0 |  1  |  2  |  1  |  0  |  2  |
+
+Vemos que al haber 2 de dos , se suman 1 y luego 1 al count en la posicion 2 y sigue sumando y añadiendo hasta llegar al maximo.
+
+![Screenshot from 2021-01-28 11-29-43](Screenshot from 2021-01-28 11-29-43.png)
+
+Luego tenemos este algorithmo:
+
+![Screenshot from 2021-01-28 11-31-42](Screenshot from 2021-01-28 11-31-42.png)
+
+Esta funcion, lo que hace es, poner el numero mas pequeño que es i en la posicion z, y restarle el numero que coincide con la posicion en el count.
+
+El se suma 1 y vemos que coincide con el 1 del count, el 1 se compara con los demas, al ser el mas pequeño en la posicion del array que es z y el valorde z es 0 lo que equivale a la posicion del array posicion 0, se le añade el 1 a la posicion 0 ya que es el mas pequeño y se le resta  1 al valor 1 del count
+
+| 0 |  1  |  2  |  3  |  4  |  5 |
+|---|-----|-----|-----|-----|----|
+| 0 |  0  |  2  |  1  |  0  |  1 |
+
+Luego a la z se le suma 1 y el valor de la z pasa a ser de 0 a 1, y el array[z] o mejor dicho array[1] es la posicion en la que estamos.
+
+Se vuelve a sumar de uno en uno la i y vemos que hay un dos, pues se repite lo anterior.
+Se le resta al count 1 del valor 2, y la z se le suma 1 y pasa a valer 2 y estamos en la posicion 2, asi se repite hasta llegar al maximo valor que en este caso es 5.
+
+Muestro la tabla que enseña los cambios, se va sumando y añadiendo valor al array segun la z.
+
+|   0 |  1   |  2  |  3   |  4  |  5  |
+|-----|------|-----|------|-----|-----|
+|  1  |  0   |  0  |  0   |  0  |  0  |
+|  1  |  2   |  0  |  0   |  0  |  0  |
+|  1  |  2   |  2  |  0   |  0  |  0  |
+|  1  |  2   |  2  |  3   |  0  |  0  |
+|  1  |  2   |  2  |  3   |  5  |  0  |
+|  1  |  2   |  2  |  3   |  5  |  5  |
+
+
+
+
